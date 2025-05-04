@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!**/src/main/**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+.idea/
+*.iml
+
+# Android Studio
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Signing keys
+*.jks
+*.keystore
+key.properties
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# APKs
+*.apk
+*.ap_
+
+# Cache
+*.cache
+*.lock
